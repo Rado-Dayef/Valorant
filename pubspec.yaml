@@ -1,0 +1,51 @@
+name: com.rado.valorant
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.1.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  get: ^4.6.6
+  http: ^1.1.0
+  lottie: ^2.6.0
+  readmore: ^2.2.0
+  liquid_swipe: ^3.1.0
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.2
+  flutter_screenutil: ^5.9.0
+  cached_network_image: ^3.3.0
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/fonts/
+    - assets/jsons/
+  fonts:
+    - family: Times
+      fonts:
+        - asset: assets/fonts/times.ttf
+    - family: Valorant
+      fonts:
+        - asset: assets/fonts/valorant.ttf
